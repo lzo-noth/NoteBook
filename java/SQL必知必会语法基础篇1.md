@@ -18,7 +18,7 @@ DB 的英文是 DataBase，也就是数据库。数据库是存储数据的集�
 
 ### oracle
 
-![SQL%E5%BF%85%E7%9F%A5%E5%BF%85%E4%BC%9A%E8%AF%AD%E6%B3%95%E5%9F%BA%E7%A1%80%E7%AF%871%20924d9ed50758484495edc5fb74df2034/Untitled.png](oracle.png)
+！[SQL必知必会语法基础篇1/oracle.png](oracle.png)
 
 1. 语法检查：检查 SQL 拼写是否正确，如果不正确，Oracle 会报语法错误。
 2. 语义检查：检查 SQL 中的访问对象是否存在。比如我们在写 SELECT 语句的时候，列名写错了，系统就会提示错误。语法检查和语义检查的作用是保证 SQL 语句没有错误。
