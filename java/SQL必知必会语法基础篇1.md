@@ -18,7 +18,8 @@ DB 的英文是 DataBase，也就是数据库。数据库是存储数据的集�
 
 ### oracle
 
-！[SQL必知必会语法基础篇1/oracle.png](oracle.png)
+![](https://raw.githubusercontent.com/lzo-noth/note_pics/main/oracle.png)
+
 
 1. 语法检查：检查 SQL 拼写是否正确，如果不正确，Oracle 会报语法错误。
 2. 语义检查：检查 SQL 中的访问对象是否存在。比如我们在写 SELECT 语句的时候，列名写错了，系统就会提示错误。语法检查和语义检查的作用是保证 SQL 语句没有错误。
@@ -32,7 +33,8 @@ DB 的英文是 DataBase，也就是数据库。数据库是存储数据的集�
 
 首先 MySQL 是典型的 C/S 架构，即 Client/Server 架构，服务器端程序使用的 mysqld。整体的 MySQL 流程如下图所示：
 
-![SQL%E5%BF%85%E7%9F%A5%E5%BF%85%E4%BC%9A%E8%AF%AD%E6%B3%95%E5%9F%BA%E7%A1%80%E7%AF%871%20924d9ed50758484495edc5fb74df2034/Untitled%201.png](mySQL.png)
+![](https://raw.githubusercontent.com/lzo-noth/note_pics/main/mySQL.png)
+
 
 你能看到 MySQL 由三层组成：
 
@@ -44,7 +46,8 @@ SQL 层：对 SQL 语句进行查询处理；
 
 其中 SQL 层与数据库文件的存储方式无关，我们来看下 SQL 层的结构：
 
-![SQL%E5%BF%85%E7%9F%A5%E5%BF%85%E4%BC%9A%E8%AF%AD%E6%B3%95%E5%9F%BA%E7%A1%80%E7%AF%871%20924d9ed50758484495edc5fb74df2034/Untitled%202.png](Untitled%202.png)
+![](https://raw.githubusercontent.com/lzo-noth/note_pics/main/Untitled%202.png)
+
 
 1. 查询缓存：Server 如果在查询缓存中发现了这条 SQL 语句，就会直接将结果返回给客户端；如果没有，就进入到解析器阶段。需要说明的是，因为查询缓存往往效率不高，所以在 MySQL8.0 之后就抛弃了这个功能。
 2. 解析器：在解析器中对 SQL 语句进行语法分析、语义分析。
@@ -59,7 +62,8 @@ SQL 层：对 SQL 语句进行查询处理；
 mysql> select @@profiling;
 ```
 
-![SQL%E5%BF%85%E7%9F%A5%E5%BF%85%E4%BC%9A%E8%AF%AD%E6%B3%95%E5%9F%BA%E7%A1%80%E7%AF%871%20924d9ed50758484495edc5fb74df2034/Untitled%203.png](Untitled%203.png)
+![](https://raw.githubusercontent.com/lzo-noth/note_pics/main/Untitled%203.png)
+
 
 profiling=0 代表关闭，我们需要把 profiling 打开，即设置为 1：
 
@@ -75,7 +79,8 @@ mysql> select * from wucai.heros;
 
 查看当前会话所产生的所有 profiles：
 
-![SQL%E5%BF%85%E7%9F%A5%E5%BF%85%E4%BC%9A%E8%AF%AD%E6%B3%95%E5%9F%BA%E7%A1%80%E7%AF%871%20924d9ed50758484495edc5fb74df2034/Untitled%204.png](Untitled%204.png)
+![](https://raw.githubusercontent.com/lzo-noth/note_pics/main/Untitled%204.png)
+
 
 你会发现我们刚才执行了两次查询，Query ID 分别为 1 和 2。如果我们想要获取上一次查询的执行时间，可以使用：
 
@@ -83,7 +88,8 @@ mysql> select * from wucai.heros;
 mysql> show profile;
 ```
 
-![SQL%E5%BF%85%E7%9F%A5%E5%BF%85%E4%BC%9A%E8%AF%AD%E6%B3%95%E5%9F%BA%E7%A1%80%E7%AF%871%20924d9ed50758484495edc5fb74df2034/Untitled%205.png](Untitled%205.png)
+![](https://raw.githubusercontent.com/lzo-noth/note_pics/main/Untitled%205.png)
+
 
 当然你也可以查询指定的 Query ID，比如：
 
@@ -131,7 +137,8 @@ SELECT 查询还可以对常数进行查询。对的，就是在 SELECT 查询�
 SQL：SELECT '王者荣耀' as platform, name FROM heros
 ```
 
-![SQL%E5%BF%85%E7%9F%A5%E5%BF%85%E4%BC%9A%E8%AF%AD%E6%B3%95%E5%9F%BA%E7%A1%80%E7%AF%871%20924d9ed50758484495edc5fb74df2034/Untitled%206.png](Untitled%206.png)
+![](https://raw.githubusercontent.com/lzo-noth/note_pics/main/Untitled%206.png)
+
 
 **去除重复行**
 
@@ -195,13 +202,15 @@ FROM > WHERE > GROUP BY > HAVING > SELECT的字段 > DISTINCT > ORDER BY > LIMIT
 
 ### 比较运算符
 
-![SQL%E5%BF%85%E7%9F%A5%E5%BF%85%E4%BC%9A%E8%AF%AD%E6%B3%95%E5%9F%BA%E7%A1%80%E7%AF%871%20924d9ed50758484495edc5fb74df2034/Untitled%207.png](Untitled%207.png)
+![](https://raw.githubusercontent.com/lzo-noth/note_pics/main/Untitled%207.png)
+
 
 注：不同DBMS支持运算符不一样，如MYSQL不支持!<,!>等。
 
 ### 逻辑运算符
 
-![SQL%E5%BF%85%E7%9F%A5%E5%BF%85%E4%BC%9A%E8%AF%AD%E6%B3%95%E5%9F%BA%E7%A1%80%E7%AF%871%20924d9ed50758484495edc5fb74df2034/Untitled%208.png](Untitled%208.png)
+![](https://raw.githubusercontent.com/lzo-noth/note_pics/main/Untitled%208.png)
+
 
 ### 通配符
 
@@ -215,19 +224,23 @@ SQL：SELECT name FROM heros WHERE name LIKE '%太%'
 
 1. 算术函数 
     
-    ![SQL%E5%BF%85%E7%9F%A5%E5%BF%85%E4%BC%9A%E8%AF%AD%E6%B3%95%E5%9F%BA%E7%A1%80%E7%AF%871%20924d9ed50758484495edc5fb74df2034/Untitled%209.png](Untitled%209.png)
+    ![](https://raw.githubusercontent.com/lzo-noth/note_pics/main/Untitled%209.png)
+
     
 2. 字符串函数 
     
-    ![SQL%E5%BF%85%E7%9F%A5%E5%BF%85%E4%BC%9A%E8%AF%AD%E6%B3%95%E5%9F%BA%E7%A1%80%E7%AF%871%20924d9ed50758484495edc5fb74df2034/Untitled%2010.png](Untitled%2010.png)
+    ![](https://raw.githubusercontent.com/lzo-noth/note_pics/main/Untitled%2010.png)
+
     
 3. 日期函数 
     
-    ![SQL%E5%BF%85%E7%9F%A5%E5%BF%85%E4%BC%9A%E8%AF%AD%E6%B3%95%E5%9F%BA%E7%A1%80%E7%AF%871%20924d9ed50758484495edc5fb74df2034/Untitled%2011.png](Untitled%2011.png)
+    ![](https://raw.githubusercontent.com/lzo-noth/note_pics/main/Untitled%2011.png)
+
     
 4. 转换函数
     
-    ![SQL%E5%BF%85%E7%9F%A5%E5%BF%85%E4%BC%9A%E8%AF%AD%E6%B3%95%E5%9F%BA%E7%A1%80%E7%AF%871%20924d9ed50758484495edc5fb74df2034/Untitled%2012.png](Untitled%2012.png)
+    ![](https://raw.githubusercontent.com/lzo-noth/note_pics/main/Untitled%2012.png)
+
     
 
 例子:
@@ -262,7 +275,8 @@ SQL： SELECT name, EXTRACT(YEAR FROM birthdate) AS birthdate FROM heros WHERE b
 
 **聚集函数都有哪些,**能否在一条 SELECT 语句中使用多个聚集函数;   
 
-![SQL%E5%BF%85%E7%9F%A5%E5%BF%85%E4%BC%9A%E8%AF%AD%E6%B3%95%E5%9F%BA%E7%A1%80%E7%AF%871%20924d9ed50758484495edc5fb74df2034/Untitled%2013.png](Untitled%2013.png)
+![](https://raw.githubusercontent.com/lzo-noth/note_pics/main/Untitled%2013.png)
+
 
 **如何对数据进行分组,并进行聚集统计;** 
 
