@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "java/SQL必知必会语法基础篇1.md",
+            "file": "我的环境配置/图床配置.md",
             "mode": "source",
             "source": false
           }
@@ -22,6 +22,22 @@
     "id": "a357e7ea12e0e0a2",
     "type": "split",
     "children": [
+      {
+        "id": "f1956b475f1601c3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5d939b4ad6533375",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "我的环境配置/图床配置.md"
+              }
+            }
+          }
+        ]
+      },
       {
         "id": "cbee379a769f74c4",
         "type": "tabs",
@@ -53,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 213.5
   },
   "right": {
     "id": "fa48db4027f11209",
@@ -69,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "java/SQL必知必会语法基础篇1.md",
+                "file": "我的环境配置/图床配置.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,15 +109,16 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 244.6999969482422
   },
   "active": "9af54daaeeb6189d",
   "lastOpenFiles": [
+    "我的环境配置/图床配置.md",
     "java/SQL必知必会语法基础篇1.md",
+    "java/Mybatis总结.md",
+    "java/SQL必知必会语法基础篇1/mySQL.png",
     "java/SQL必知必会语法基础篇1/oracle.png",
     "java/SQL必知必会语法基础篇1/Untitled 2.png",
-    "java/SQL必知必会语法基础篇1/mySQL.png",
-    "java/Mybatis总结.md",
     "SQL必知必会语法基础篇1 924d9ed50758484495edc5fb74df2034/Untitled.png.md",
     "README.md"
   ]
