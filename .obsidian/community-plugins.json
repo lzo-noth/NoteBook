@@ -1,4 +1,7 @@
 [
   "obsidian-git",
-  "obsidian-image-auto-upload-plugin"
+  "obsidian-image-auto-upload-plugin",
+  "obsidian-mind-map",
+  "url-into-selection",
+  "code-block-copy"
 ]
