@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "我的环境配置/图床配置.md",
+            "file": "java/Quakus.md",
             "mode": "source",
             "source": false
           }
@@ -32,7 +32,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "我的环境配置/图床配置.md"
+                "file": "java/Quakus.md"
               }
             }
           }
@@ -101,7 +101,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "我的环境配置/图床配置.md",
+                "file": "java/Quakus.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -138,9 +138,10 @@
   },
   "active": "9af54daaeeb6189d",
   "lastOpenFiles": [
+    "java/Quakus.md",
+    "java/Mybatis总结.md",
     "我的环境配置/图床配置.md",
     "java/SQL必知必会语法基础篇1.md",
-    "java/Mybatis总结.md",
     "java/SQL必知必会语法基础篇1/mySQL.png",
     "java/SQL必知必会语法基础篇1/oracle.png",
     "java/SQL必知必会语法基础篇1/Untitled 2.png",
