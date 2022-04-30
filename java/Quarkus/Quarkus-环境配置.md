@@ -13,7 +13,7 @@ Quarkus 的依赖注入解决方案基于 CDI（上下文和依赖注入），�
 	- 下载 https://github.com/graalvm/graalvm-ce-builds/releases
 	- 解压
 	- 环境变量
-		- GRAALVM_HOME=[GRAALVM_HOME](file:///D:/graalvm/graalvm-ce-java11-22.1.0)
+		- GRAALVM_HOME=D:/graalvm/graalvm-ce-java11-22.1.0
 		- JAVA_HOME=%GRAALVM_HOME%
 		- Path 添加 %JAVA_HOME%/bin
 	- 验证 

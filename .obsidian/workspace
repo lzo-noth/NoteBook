@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "java/Quarkus/Quarkus.md",
+            "file": "java/Quarkus/Quarkus-环境配置.md",
             "mode": "source",
             "source": false
           }
@@ -32,7 +32,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "java/Quarkus/Quarkus.md"
+                "file": "java/Quarkus/Quarkus-环境配置.md"
               }
             }
           }
@@ -101,7 +101,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "java/Quarkus/Quarkus.md",
+                "file": "java/Quarkus/Quarkus-环境配置.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -136,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "java/Quarkus/Quarkus.md",
+                "file": "java/Quarkus/Quarkus-环境配置.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +155,7 @@
   },
   "active": "1bff38ac343478f7",
   "lastOpenFiles": [
-    "java/Quarkus/Quarkus.md",
+    "java/Quarkus/Quarkus-环境配置.md",
     "java/Mybatis总结.md",
     "java/SQL必知必会语法基础篇1.md",
     "rust/rust.md",
