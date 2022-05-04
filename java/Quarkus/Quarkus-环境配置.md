@@ -1,6 +1,7 @@
 ---
-tags: #java, #quarkus, #graalvm
+tags: java,quarkus,graalvm
 ---
+
 ## 什么是Quarkus
 Quarkus 是一个为 Java 虚拟机（JVM）和原生编译而设计的全堆栈 Kubernetes 原生 Java 框架，用于专门针对容器优化 Java，并使其成为无服务器、云和 Kubernetes 环境的高效平台。
 

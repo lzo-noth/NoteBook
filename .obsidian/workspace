@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "java/SQL必知必会语法基础篇1.md",
-            "mode": "source",
+            "file": "java/Quarkus/Quarkus-环境配置.md",
+            "mode": "preview",
             "source": false
           }
         }
@@ -32,7 +32,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "java/SQL必知必会语法基础篇1.md"
+                "file": "java/Quarkus/Quarkus-环境配置.md"
               }
             }
           }
@@ -88,20 +88,12 @@
             }
           },
           {
-            "id": "fad252cddf244183",
-            "type": "leaf",
-            "state": {
-              "type": "mindmap",
-              "state": {}
-            }
-          },
-          {
             "id": "dc138ea6b1628b18",
             "type": "leaf",
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "java/SQL必知必会语法基础篇1.md",
+                "file": "java/Quarkus/Quarkus-环境配置.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -136,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "java/SQL必知必会语法基础篇1.md",
+                "file": "java/Quarkus/Quarkus-环境配置.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,6 +136,29 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b8db51414060488b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "java/Quarkus/Quarkus-环境配置.md",
+                "linksCollapsed": true,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c4bb2813df2bf11d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": false
               }
             }
           }
@@ -155,15 +170,15 @@
   },
   "active": "1bff38ac343478f7",
   "lastOpenFiles": [
+    "java/Quarkus/Quarkus-环境配置.md",
     "java/SQL必知必会语法基础篇1.md",
     "java/Mybatis总结.md",
-    "java/Quarkus/Quarkus-环境配置.md",
+    "README.md",
+    "java/SQL必知必会语法基础篇2 .md",
     "Excalidraw/Drawing 2022-05-04 20.55.39.excalidraw.md",
     "rust/rust.md",
     "k8s/k8s.md",
-    "java/SQL必知必会语法基础篇2 .md",
     "SQL必知必会语法基础篇2 38ec03d0269b4ee9a42df529f1049463/Untitled.png.md",
-    "java/SQL必知必会语法基础篇1/oracle.png",
-    "java/SQL必知必会语法基础篇1/mySQL.png"
+    "java/SQL必知必会语法基础篇1/oracle.png"
   ]
 }
