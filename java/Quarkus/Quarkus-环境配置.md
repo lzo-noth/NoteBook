@@ -1,5 +1,5 @@
 ---
-tags: java,quarkus,graalvm
+tags: java, quarkus, graalvm
 ---
 
 ## 什么是Quarkus
@@ -24,8 +24,8 @@ Quarkus 的依赖注入解决方案基于 CDI（上下文和依赖注入），�
 		- cmd.exe
 			- java -version
 			- openjdk version "11.0.15" 2022-04-19
-				OpenJDK Runtime Environment GraalVM CE 22.1.0 (build 11.0.15+10-jvmci-22.1-b06)
-				OpenJDK 64-Bit Server VM GraalVM CE 22.1.0 (build 11.0.15+10-jvmci-22.1-b06, mixed mode, sharing)
+			OpenJDK Runtime Environment GraalVM CE 22.1.0 (build 11.0.15+10-jvmci-22.1-b06)
+			OpenJDK 64-Bit Server VM GraalVM CE 22.1.0 (build 11.0.15+10-jvmci-22.1-b06, mixed mode, sharing)
 
 ```
 gu install native-image
