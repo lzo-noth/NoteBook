@@ -176,4 +176,4 @@ MyBatis 提供了一级缓存和二级缓存的支持。默认情况下，MyBati
 
 为了简化 XML 的配置，MyBatis 提供了注解。
 
-[MyBatis注解（3种类型） (biancheng.net)](http://c.biancheng.net/mybatis/annotation.html)
+[MyBatis注解](http://c.biancheng.net/mybatis/annotation.html)
