@@ -4,5 +4,7 @@
   "url-into-selection",
   "code-block-copy",
   "dataview",
-  "obsidian-excalidraw-plugin"
+  "obsidian-excalidraw-plugin",
+  "quickadd",
+  "obsidian-style-settings"
 ]

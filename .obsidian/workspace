@@ -10,7 +10,7 @@
           "type": "markdown",
           "state": {
             "file": "java/Mybatis总结.md",
-            "mode": "preview",
+            "mode": "source",
             "source": false
           }
         }
@@ -171,14 +171,14 @@
   "active": "1bff38ac343478f7",
   "lastOpenFiles": [
     "java/Mybatis总结.md",
-    "java/Quarkus/Quarkus-环境配置.md",
     "java/SQL必知必会语法基础篇1.md",
-    "README.md",
-    "java/SQL必知必会语法基础篇2 .md",
-    "Excalidraw/Drawing 2022-05-04 20.55.39.excalidraw.md",
+    "sd.md",
+    "Template/coding.md",
+    "ss.md",
+    "dd.md",
+    "java.md",
     "rust/rust.md",
-    "k8s/k8s.md",
-    "SQL必知必会语法基础篇2 38ec03d0269b4ee9a42df529f1049463/Untitled.png.md",
-    "java/SQL必知必会语法基础篇1/oracle.png"
+    "java/Quarkus/Quarkus-环境配置.md",
+    "README.md"
   ]
 }
